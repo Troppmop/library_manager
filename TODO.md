@@ -1,13 +1,16 @@
 - Implement file structure (shmuel)
 - Implement classes:
     - Book (Shmuel)
+        - title, author, isbn, is_available
     - User (Dovid)
+        - name, id, borrowed_books, 
     - Library (Dovid)
+        - list of books, list of users
 - Implement Features:
     - Add Book (Shmuel)
     - Borrow (Dovid)
     - Return (Shmuel)
-    - Show availible (Dovid)
+    - Show available (Dovid)
     - Search by title or author (Shmuel)
 - File handling:
     - JSON (Dovid)
