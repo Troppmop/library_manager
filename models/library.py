@@ -6,6 +6,22 @@ class Library:
         self.books = []
         self.users = []
 
+    def borrow(self, user_id:int, isbn:int):
+        for book in self.books:
+            if book.isbn == isbn:
+                for user in self.users:
+                    if user.user_id == user_id:
+                        user.borrowed_books.append(book)
+                        book.is_available == False
+                        break
+                    
+                    
+    def show_available(self):
+        print("available books: ")
+        for book in self.books:
+            if book.available == True:
+                print(book)
+
     def add_book(self, book: Book):
         self.books.append(book)
 
