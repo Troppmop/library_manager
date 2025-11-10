@@ -1,12 +1,28 @@
+- Implement file structure (shmuel)
 - Implement classes:
-    - Book
-    - User
-    - Library
+    - Book (Shmuel)
+        - title, author, isbn, is_available
+    - User (Dovid)
+        - name, id, borrowed_books, 
+    - Library (Dovid)
+        - list of books, list of users
 - Implement Features:
-    - Add Book
-    - Borrow
-    - Return
-    - Show availible
-    - Search by title or author
+    - Add Book (Shmuel)
+    - Borrow (Dovid)
+    - Return (Shmuel)
+    - Show available (Dovid)
+    - Search by title or author (Shmuel)
 - File handling:
-    - JSON
+    - JSON (Dovid)
+- Test features (Shmuel)
+- Finish README (Dovid)
+
+- main.py
+- |-models/
+- |   |- book.py
+- |   |- user.py
+- |   |- library.py
+- |-utils/
+-     |- json_io.py
+- |- README.md
+- |- TODO.md

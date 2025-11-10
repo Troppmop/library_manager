@@ -1,0 +1,9 @@
+class Book:
+    def __init__(self, title: str, author: str, isbn: int):
+        self.title = title
+        self.author = author
+        self.isbn = isbn
+        self.is_available = True
+
+    def __str__(self):
+        print(f'title: {self.title}, author: {self.author}, ISBN: {self.isbn}, is_available: {self.is_available}')
