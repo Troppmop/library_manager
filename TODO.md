@@ -1,0 +1,12 @@
+- Implement classes:
+    - Book
+    - User
+    - Library
+- Implement Features:
+    - Add Book
+    - Borrow
+    - Return
+    - Show availible
+    - Search by title or author
+- File handling:
+    - JSON
