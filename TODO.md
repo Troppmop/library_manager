@@ -1,4 +1,4 @@
-- Implement file structure
+- Implement file structure (shmuel)
 - Implement classes:
     - Book (Shmuel)
     - User (Dovid)
@@ -15,11 +15,11 @@
 - Finish README (Dovid)
 
 - main.py
-|-models/
-|   |- book.py
-|   |- user.py
-|   |- library.py
-|-utils/
-    |- json_io.py
-|- README.md
-|- TODO.md
+- |-models/
+- |   |- book.py
+- |   |- user.py
+- |   |- library.py
+- |-utils/
+-     |- json_io.py
+- |- README.md
+- |- TODO.md
