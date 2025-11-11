@@ -12,7 +12,7 @@ class Library:
     def return_book(self, user_id: int, book_isbn: int):
         for i in self.books:
             if i.isbn == book_isbn:
-                i. is_available = True
+                i.is_available = True
         for i in self.users:
             if user_id == i.user_id:
                 this_user = i
